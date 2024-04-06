@@ -6,3 +6,11 @@ updategodotlts() {
 	~/projects/bashshit/godotupdater/updatelts.sh
 	~/projects/bashshit/godotupdater/updategodot.sh
 }
+godotlatest() {
+	updategodotlatest
+	godot
+}
+godotlts() {
+	updategodotlts
+	godot
+}
